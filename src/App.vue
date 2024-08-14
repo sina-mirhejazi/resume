@@ -34,7 +34,7 @@
           <section>
             <h3>Profile</h3>
             <p>
-              Experienced Senior Software Engineer with more than 8 years of experience equipped
+              Experienced Senior Software Engineer with more than 9 years of experience equipped
               with a diverse and promising skill-set. Proficient in various frameworks and
               languages. Experienced with the latest cutting edge development tools and procedures.
               Able to effectively self-manage during independent projects, as well as collaborate as
@@ -49,18 +49,21 @@
               <ul>
                 <li>HTML, CSS, JavaScript, TypeScript</li>
                 <li>React, ReactNative</li>
+                <li>ExpressJS</li>
+                <li>NodeJS/V8</li>
                 <li>Angular 2+</li>
                 <li>VueJS</li>
                 <li>REST API</li>
+                <li>Docker</li>
                 <li>Firebase</li>
                 <li>Unit and Integration Testing</li>
                 <li>Git</li>
                 <li>Kafka</li>
+              </ul>
+              <ul>
                 <li>Datadog, Sentry, Splunk and ChoasSearch</li>
                 <li>ESLint, TSLint</li>
                 <li>CSS Preprocessors (SASS), BEM</li>
-              </ul>
-              <ul>
                 <li>Agile & Scrum</li>
                 <li>Object Oriented Programming</li>
                 <li>Functional Programming</li>
@@ -70,9 +73,6 @@
                 <li>Test Driven Development</li>
                 <li>Reactive Programming</li>
                 <li>Team Leadership and Mentoring</li>
-                <li>Docker</li>
-                <li>NodeJS/V8</li>
-                <li>ExpressJS</li>
               </ul>
               <ul>
                 <li>PostgreSQL, Prisma ORM</li>
@@ -94,7 +94,7 @@
             <section class="work-experience">
               <div class="work-experience__header">
                 <img src="./assets/klarna-logo.jpg" />
-                <h4>Software Engineer</h4>
+                <h4>Senior Software Engineer</h4>
                 <div>
                   <font-awesome-icon :icon="['fa', 'calendar-alt']" />
                   <span class="accent-font">Jun 2021 - Present</span>
@@ -106,12 +106,14 @@
               </div>
               <div class="work-experience__body">
                 <ul>
+                  <li>Handling <strong>cross-team communication</strong> and initiating and managing
+                    a project involving multiple teams.</li>
                   <li>
                     Main driver in a new product, participating in designing the project, database
                     and dataflow between different parts, using <strong>Kafka</strong>,
                     <strong>PostgreSQL</strong>, <strong>GraphQL</strong> and
-                    <strong>ExpressJS</strong> on backend and <strong>ReactNative</strong> on
-                    frontend.
+                    <strong>ExpressJS</strong> on the backend and <strong>ReactNative</strong> on
+                    the frontend.
                   </li>
                   <li>
                     Implementing and <strong>deploying</strong> the backend services and setting up
@@ -120,8 +122,7 @@
                   <li>
                     Writing a <strong>complex native query</strong> to read and aggregate data from
                     the database which responds more than <strong>300K per hour</strong> averaging
-                    in <strong>less than 20ms</strong>
-                    for each request.
+                    in <strong>less than 20ms</strong> for each request.
                   </li>
                   <li>
                     Participating in <strong>on-call rotations</strong> and
@@ -137,7 +138,7 @@
                   </li>
                   <li>Refactoring legacy codes.</li>
                   <li>
-                    Figuring out issues and improving to the pipeline and tools used by 1000+
+                    Figuring out issues and improving the pipeline and tools used by 1000+
                     developers across the whole company.
                   </li>
                 </ul>
@@ -212,7 +213,7 @@
                         <strong>Ceph</strong>.
                       </li>
                       <li>
-                        Making <strong>CI/CD</strong> using <strong>Docker</strong> and
+                        Developing <strong>CI/CD</strong> using <strong>Docker</strong> and
                         <strong>Gitlab CI</strong>.
                       </li>
                     </ul>
@@ -223,8 +224,7 @@
                   </li>
                   <li>
                     Creating a CLI tool to check and compare i18n files to find the missing or
-                    unused tokens in the project using
-                    <strong>NodeJS</strong>.
+                    unused tokens in the project using <strong>NodeJS</strong>.
                   </li>
                   <li>Participating in code review process.</li>
                 </ul>
@@ -499,6 +499,8 @@ main {
       font-size: 1.5rem;
 
       border-bottom: 1px solid $accentColor;
+
+      margin-bottom: 1rem;
     }
   }
 }
