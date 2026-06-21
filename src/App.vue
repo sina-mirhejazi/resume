@@ -1,44 +1,31 @@
+<!-- eslint-disable -->
 <template>
   <div id="app">
     <div class="container">
       <section class="hero">
-        <img src="./assets/profile-picture-2.jpg">
         <div class="intro">
           <h1>Sina Mirhejazi</h1>
-          <h2 class="accent-font">
-            Senior Software Engineer
-          </h2>
+          <h2 class="accent-font">Senior Software Engineer</h2>
         </div>
         <div class="contacts">
           <div class="contacts__item">
-            <font-awesome-icon :icon="['fa', 'phone']" />
-            (+98) 935-3300-878
+            <font-awesome-icon :icon="['fas', 'phone']" />
+            (+46) 723-5588-08
           </div>
 
           <div class="contacts__item">
-            <font-awesome-icon :icon="['fa', 'envelope']" />
-            <a
-              href="mailto:sina.mirhejazi@gmail.com"
-              target="_blank"
-            >sina.mirhejazi@gmail.com</a>
+            <font-awesome-icon :icon="['fas', 'envelope']" />
+            <a href="mailto:sina.mirhejazi@gmail.com" target="_blank">sina.mirhejazi@gmail.com</a>
           </div>
 
           <div class="contacts__item">
             <font-awesome-icon :icon="['fab', 'linkedin-in']" />
-            <a
-              href="https://www.linkedin.com/in/sinamirhejazi/"
-              target="_blank"
-            >sinamirhejazi</a>
+            <a href="https://www.linkedin.com/in/sinamirhejazi/" target="_blank">sinamirhejazi</a>
           </div>
 
           <div class="contacts__item">
-            <font-awesome-icon :icon="['fa', 'globe-asia']" />
-            Tehran, Iran
-          </div>
-
-          <div class="contacts__item">
-            <font-awesome-icon :icon="['fa', 'baby']" />
-            1993
+            <font-awesome-icon :icon="['fas', 'globe-asia']" />
+            Uppsala, Sweden
           </div>
         </div>
       </section>
@@ -47,54 +34,112 @@
           <section>
             <h3>Profile</h3>
             <p>
-              Experienced Senior Software Engineer with 7 years of experience equipped with a
-              diverse and promising skill-set. Proficient in various frameworks and languages.
-              Experienced with the latest cutting edge development tools and procedures. Able to
-              effectively self-manage during independent projects, as well as collaborate as part
-              of a productive team. Having a good background in C++ programming through ACM &
+              Experienced Senior Software Engineer with more than 11 years of experience equipped
+              with a diverse and promising skill-set. Proficient in various frameworks and
+              languages. Experienced with the latest cutting edge development tools and procedures.
+              Able to effectively self-manage during independent projects, as well as collaborate as
+              part of a productive team. Having a good background in C++ programming through ACM &
               Soccer Simulation RoboCup helps me a lot with problem-solving and working on a team.
             </p>
+          </section>
+
+          <section>
+            <h3>Skills</h3>
+            <div style="display: flex; justify-content: space-between">
+              <ul>
+                <li>HTML, CSS, JavaScript, TypeScript</li>
+                <li>React, ReactNative</li>
+                <li>ExpressJS</li>
+                <li>NodeJS/V8</li>
+                <li>Angular 2+</li>
+                <li>VueJS</li>
+                <li>REST API</li>
+                <li>Docker</li>
+                <li>Firebase</li>
+                <li>Unit and Integration Testing</li>
+                <li>Git</li>
+                <li>Kafka</li>
+              </ul>
+              <ul>
+                <li>Datadog, Sentry, Splunk and ChoasSearch</li>
+                <li>ESLint, TSLint</li>
+                <li>CSS Preprocessors (SASS), BEM</li>
+                <li>Agile & Scrum</li>
+                <li>Object Oriented Programming</li>
+                <li>Functional Programming</li>
+                <li>Code Review</li>
+                <li>AWS S3, RDS</li>
+                <li>GraphQL</li>
+                <li>Test Driven Development</li>
+                <li>Reactive Programming</li>
+                <li>Team Leadership and Mentoring</li>
+              </ul>
+              <ul>
+                <li>PostgreSQL, Prisma ORM</li>
+                <li>ElectronJS</li>
+                <li>JQuery</li>
+                <li>Bootstrap</li>
+                <li>NgRx</li>
+                <li>Nuxt.js</li>
+                <li>Gitlab CI/CD</li>
+                <li>Kubernetes</li>
+                <li>Server Side Rendering</li>
+                <li>C/C++</li>
+              </ul>
+            </div>
           </section>
 
           <section>
             <h3>Work Experiences</h3>
             <section class="work-experience">
               <div class="work-experience__header">
-                <img src="./assets/klarna-logo.jpg">
-                <h4>Software Engineer</h4>
+                <img src="./assets/klarna-logo.jpg" />
+                <h4>Senior Software Engineer</h4>
                 <div>
-                  <font-awesome-icon :icon="['fa', 'calendar-alt']" />
+                  <font-awesome-icon :icon="['fas', 'calendar-days']" />
                   <span class="accent-font">Jun 2021 - Present</span>
                 </div>
                 <h5>
                   <a href="https://www.klarna.com/">Klarna Bank AB</a>
-                  <small>Fintech company</small>
                 </h5>
                 <div>Stockholm, Sweden</div>
               </div>
               <div class="work-experience__body">
                 <ul>
+                  <li>Handling <strong>cross-team communication</strong> and initiating and managing
+                    a project involving multiple teams.</li>
                   <li>
-                    Helping the team through transition from the old my klarna page to the new one.
-                    <ul>
-                      <li>Refactoring legacy codes.</li>
-                      <li>
-                        Applying a robust architecture to make it easy for other teams to add their
-                        feature to the page.
-                      </li>
-                    </ul>
+                    Main driver in a new product, participating in designing the project, database
+                    and dataflow between different parts, using <strong>Kafka</strong>,
+                    <strong>PostgreSQL</strong>, <strong>GraphQL</strong> and
+                    <strong>ExpressJS</strong> on the backend and <strong>ReactNative</strong> on
+                    the frontend.
                   </li>
                   <li>
-                    Improvement to the pipeline and tools used by 1000+ developers across the whole
-                    company.
-                    <ul>
-                      <li>
-                        Figuring out and fixig a bug in the testing procedures.
-                      </li>
-                      <li>
-                        Adding a new test in the pipeline to help keeping the dependencies clean.
-                      </li>
-                    </ul>
+                    Implementing and <strong>deploying</strong> the backend services and setting up
+                    <strong>monitoring</strong> and <strong>dashboards</strong>.
+                  </li>
+                  <li>
+                    Writing a <strong>complex native query</strong> to read and aggregate data from
+                    the database which responds more than <strong>300K per hour</strong> averaging
+                    in <strong>less than 20ms</strong> for each request.
+                  </li>
+                  <li>
+                    Participating in <strong>on-call rotations</strong> and
+                    <strong>handling incidents</strong>.
+                  </li>
+                  <li>
+                    Conducting <strong>interviews</strong> and <strong>code reviews</strong> as part
+                    of the recruitment process.
+                  </li>
+                  <li>
+                    <strong>Mentoring new joiners</strong> and helping them to get onboard on the
+                    team's way of working and technical stacks.
+                  </li>
+                  <li>Refactoring legacy codes.</li>
+                  <li>
+                    Figuring out issues and improving the pipeline and tools used by 1000+
+                    developers across the whole company.
                   </li>
                 </ul>
               </div>
@@ -102,10 +147,10 @@
             <!-- Klarna -->
             <section class="work-experience">
               <div class="work-experience__header">
-                <img src="./assets/thisthat-logo.png">
+                <img src="./assets/thisthat-logo.png" />
                 <h4>Senior Front-End Developer</h4>
                 <div>
-                  <font-awesome-icon :icon="['fa', 'calendar-alt']" />
+                  <font-awesome-icon :icon="['fas', 'calendar-days']" />
                   <span class="accent-font">May 2020 - Apr 2021</span>
                 </div>
                 <h5>
@@ -137,12 +182,12 @@
               </div>
             </section>
             <!-- ThisThat -->
-            <section class="work-experience">
+            <section class="work-experience" style="padding-top: 3rem">
               <div class="work-experience__header">
-                <img src="./assets/cafebazaar-logo.png">
+                <img src="./assets/cafebazaar-logo.png" />
                 <h4>Software Developer</h4>
                 <div>
-                  <font-awesome-icon :icon="['fa', 'calendar-alt']" />
+                  <font-awesome-icon :icon="['fas', 'calendar-days']" />
                   <span class="accent-font">Apr 2018 - March 2020</span>
                 </div>
                 <h5>
@@ -168,7 +213,7 @@
                         <strong>Ceph</strong>.
                       </li>
                       <li>
-                        Making <strong>CI/CD</strong> using <strong>Docker</strong> and
+                        Developing <strong>CI/CD</strong> using <strong>Docker</strong> and
                         <strong>Gitlab CI</strong>.
                       </li>
                     </ul>
@@ -179,24 +224,20 @@
                   </li>
                   <li>
                     Creating a CLI tool to check and compare i18n files to find the missing or
-                    unused tokens in the project using
-                    <strong>NodeJS</strong>.
+                    unused tokens in the project using <strong>NodeJS</strong>.
                   </li>
                   <li>Participating in code review process.</li>
                 </ul>
               </div>
             </section>
             <!-- Cafebazaar -->
-            <section
-              class="work-experience"
-              style="margin-top: 300px; padding-top: 30px"
-            >
+            <section class="work-experience">
               <div class="work-experience__header">
-                <img src="./assets/faranesh-logo.png">
+                <img src="./assets/faranesh-logo.png" />
                 <h4>Software Developer</h4>
                 <div>
-                  <font-awesome-icon :icon="['fa', 'calendar-alt']" />
-                  <span class="accent-font">Oct 2016 - Apr 2018</span>
+                  <font-awesome-icon :icon="['fas', 'calendar-days']" />
+                  <span class="accent-font">Feb 2015 - Apr 2018</span>
                 </div>
                 <h5>
                   <a href="https://faranesh.com">Faranesh</a>
@@ -222,7 +263,6 @@
                             the data layer and Redux’s state management (<strong>NgRx</strong>)
                           </li>
                           <li>Async services and data provider services</li>
-                          <li>Components and views</li>
                         </ul>
                       </li>
                       <li>
@@ -269,59 +309,16 @@
               </div>
             </section>
             <!-- Faranesh -->
-            <section class="work-experience">
-              <div class="work-experience__header">
-                <img src="./assets/khallagh-logo.png">
-                <h4>Front-End Developer</h4>
-                <div>
-                  <font-awesome-icon :icon="['fa', 'calendar-alt']" />
-                  <span class="accent-font">Feb 2015 - Oct 2016</span>
-                </div>
-                <h5>
-                  <a href="https://khallagh.com">Khallagh Borhan</a>
-                  <small>Local CDN provider</small>
-                </h5>
-                <div>Tehran, Iran</div>
-              </div>
-
-              <div class="work-experience__body">
-                <ul>
-                  <li>
-                    Starting several projects from scratch including
-                    <ul>
-                      <li>
-                        Qmery - Video streaming service: Developed a back-office panel capable of
-                        uploading videos, choosing a logo, thumbnail, and watermark and placing them
-                        on the video, and sending the desired data to the backend to render the
-                        final video.
-                      </li>
-                      <li>
-                        VidAd - Video advertising platform: Developed a back-office panel capable of
-                        selecting different categories of videos, uploading banner images, and
-                        choosing a payment plan for advertisement.
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    Helping less experienced developers to get in touch with
-                    <strong>Web Development</strong> and <strong>AngularJS</strong>.
-                  </li>
-                </ul>
-              </div>
-            </section>
-            <!-- Khallagh -->
           </section>
 
           <section>
             <h3>Hubbies</h3>
             <p>
-              Playing badminton, hiking, and camping in the woods and video games.<br>
+              Playing badminton, hiking, and camping in the woods and video games.<br />
               Watching TV shows, any kind of documentaries, and Youtube videos about woodworking and
               fantasizing that someday I'll have my own workshop.
             </p>
           </section>
-        </main>
-        <aside>
           <section>
             <h3>Languages</h3>
             <ul>
@@ -330,90 +327,7 @@
               <li><strong>Persian</strong> - Native</li>
             </ul>
           </section>
-
-          <section>
-            <h3>Skills</h3>
-            <h4>Advanced</h4>
-            <ul>
-              <li><strong>HTML, CSS, JavaScript, TypeScript</strong> - HTML5, CSS3, ES6</li>
-              <li><strong>React, ReactNative</strong> - Redux, React Router, PropTypes, etc</li>
-              <li><strong>Angular 2+</strong> - RxJS, NgRx</li>
-              <li><strong>VueJS</strong> - Vue-router, Vuex</li>
-              <li>
-                <strong>REST API</strong> - with tools like axios, fetch, XHR, Angular’s httpClient
-              </li>
-              <li>
-                <strong>Firebase</strong> - auth, real-time database, storage, cloud functions
-              </li>
-              <li><strong>Unit Testing</strong> - Jest</li>
-              <li>
-                <strong>Other Tools and Concepts</strong>
-                <ul>
-                  <li>Git</li>
-                  <li>ESLint, TSLint</li>
-                  <li>CSS Preprocessors (SASS), BEM</li>
-                  <li>Agile & Scrum</li>
-                  <li>Object Oriented Programming</li>
-                  <li>Functional Programming</li>
-                  <li>Code Review</li>
-                </ul>
-              </li>
-            </ul>
-
-            <hr>
-            <h4>Intermediate</h4>
-            <small>Still learning or practiced a while ago</small>
-            <ul>
-              <li>
-                <strong>GraphQL</strong>
-              </li>
-              <li>
-                <strong>ElectronJS</strong>
-              </li>
-              <li>
-                <strong>Test Driven Development</strong>
-              </li>
-              <li>
-                <strong>JQuery</strong>
-              </li>
-              <li>
-                <strong>Bootstrap</strong>
-              </li>
-              <li>
-                <strong>NgRx</strong>
-              </li>
-              <li>
-                <strong>Reactive Programming</strong>
-              </li>
-              <li>
-                <strong>Team Leadership and Mentoring</strong>
-              </li>
-              <li>
-                <strong>Docker</strong>
-              </li>
-              <li>
-                <strong>C/C++</strong>
-              </li>
-              <li>
-                <strong>NodeJS/V8</strong>
-              </li>
-              <li>
-                <strong>ExpressJS + PostgreSQL</strong>
-              </li>
-            </ul>
-
-            <h4 style="margin-top: 300px; padding-top: 30px">
-              Familiar with
-            </h4>
-            <ul>
-              <li>Nuxt.js</li>
-              <li>Gitlab CI/CD</li>
-              <li>Kubernetes</li>
-              <li>AWS S3</li>
-              <li>Server Side Rendering</li>
-            </ul>
-          </section>
-        </aside>
+        </main>
       </section>
     </div>
   </div>
@@ -421,7 +335,8 @@
 
 <script>
 export default {
-  name: 'App',
+  // eslint-disable-next-line quotes
+  name: "App",
 };
 </script>
 
@@ -475,22 +390,15 @@ a {
 }
 
 .hero {
-  display: grid;
-  grid-template-columns: 130px 1fr;
-  grid-template-rows: 130px 50px;
-  grid-gap: 15px;
+  display: flex;
+  flex-direction: column;
 
   .intro {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-  }
-
-  img {
-    width: 130px;
-    height: 130px;
-
-    border-radius: 15px;
+    align-items: center;
+    margin-bottom: 2rem;
   }
 
   h1,
@@ -540,9 +448,7 @@ a {
 }
 
 .body {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-gap: 30px;
+  display: flex;
   margin-top: 30px;
 }
 
@@ -552,47 +458,49 @@ main {
       font-size: 1.5rem;
 
       border-bottom: 1px solid $accentColor;
+
+      margin-bottom: 1rem;
     }
   }
 }
 
-aside {
-  padding: 15px;
-  color: white;
+// aside {
+//   padding: 15px;
+//   color: white;
 
-  font-size: 0.8rem;
+//   font-size: 0.8rem;
 
-  background-color: $accentColor;
+//   background-color: $accentColor;
 
-  hr {
-    border: none;
-    border-bottom: 1px solid rgba(white, 0.5);
-    margin: 15px 20px;
-  }
+//   hr {
+//     border: none;
+//     border-bottom: 1px solid rgba(white, 0.5);
+//     margin: 15px 20px;
+//   }
 
-  h3 {
-    padding-bottom: 5px;
+//   h3 {
+//     padding-bottom: 5px;
 
-    font-size: 1rem;
+//     font-size: 1rem;
 
-    border-bottom: 1px solid white;
-    text-transform: uppercase;
-  }
+//     border-bottom: 1px solid white;
+//     text-transform: uppercase;
+//   }
 
-  h4 {
-    margin-bottom: 0;
-  }
+//   h4 {
+//     margin-bottom: 0;
+//   }
 
-  ul {
-    padding-left: 1rem;
-    margin: 0;
-  }
+//   ul {
+//     padding-left: 1rem;
+//     margin: 0;
+//   }
 
-  h4 + small {
-    display: block;
-    margin-top: -0.5rem;
-  }
-}
+//   h4 + small {
+//     display: block;
+//     margin-top: -0.5rem;
+//   }
+// }
 
 .work-experience {
   margin-bottom: 50px;
