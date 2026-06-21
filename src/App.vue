@@ -9,12 +9,12 @@
         </div>
         <div class="contacts">
           <div class="contacts__item">
-            <font-awesome-icon :icon="['fa', 'phone']" />
+            <font-awesome-icon :icon="['fas', 'phone']" />
             (+46) 723-5588-08
           </div>
 
           <div class="contacts__item">
-            <font-awesome-icon :icon="['fa', 'envelope']" />
+            <font-awesome-icon :icon="['fas', 'envelope']" />
             <a href="mailto:sina.mirhejazi@gmail.com" target="_blank">sina.mirhejazi@gmail.com</a>
           </div>
 
@@ -24,8 +24,8 @@
           </div>
 
           <div class="contacts__item">
-            <font-awesome-icon :icon="['fa', 'globe-asia']" />
-            Stockholm, Sweden
+            <font-awesome-icon :icon="['fas', 'globe-asia']" />
+            Uppsala, Sweden
           </div>
         </div>
       </section>
@@ -34,7 +34,7 @@
           <section>
             <h3>Profile</h3>
             <p>
-              Experienced Senior Software Engineer with more than 9 years of experience equipped
+              Experienced Senior Software Engineer with more than 11 years of experience equipped
               with a diverse and promising skill-set. Proficient in various frameworks and
               languages. Experienced with the latest cutting edge development tools and procedures.
               Able to effectively self-manage during independent projects, as well as collaborate as
@@ -96,7 +96,7 @@
                 <img src="./assets/klarna-logo.jpg" />
                 <h4>Senior Software Engineer</h4>
                 <div>
-                  <font-awesome-icon :icon="['fa', 'calendar-alt']" />
+                  <font-awesome-icon :icon="['fas', 'calendar-days']" />
                   <span class="accent-font">Jun 2021 - Present</span>
                 </div>
                 <h5>
@@ -150,7 +150,7 @@
                 <img src="./assets/thisthat-logo.png" />
                 <h4>Senior Front-End Developer</h4>
                 <div>
-                  <font-awesome-icon :icon="['fa', 'calendar-alt']" />
+                  <font-awesome-icon :icon="['fas', 'calendar-days']" />
                   <span class="accent-font">May 2020 - Apr 2021</span>
                 </div>
                 <h5>
@@ -187,7 +187,7 @@
                 <img src="./assets/cafebazaar-logo.png" />
                 <h4>Software Developer</h4>
                 <div>
-                  <font-awesome-icon :icon="['fa', 'calendar-alt']" />
+                  <font-awesome-icon :icon="['fas', 'calendar-days']" />
                   <span class="accent-font">Apr 2018 - March 2020</span>
                 </div>
                 <h5>
@@ -236,8 +236,8 @@
                 <img src="./assets/faranesh-logo.png" />
                 <h4>Software Developer</h4>
                 <div>
-                  <font-awesome-icon :icon="['fa', 'calendar-alt']" />
-                  <span class="accent-font">Oct 2016 - Apr 2018</span>
+                  <font-awesome-icon :icon="['fas', 'calendar-days']" />
+                  <span class="accent-font">Feb 2015 - Apr 2018</span>
                 </div>
                 <h5>
                   <a href="https://faranesh.com">Faranesh</a>
@@ -309,47 +309,6 @@
               </div>
             </section>
             <!-- Faranesh -->
-            <section class="work-experience">
-              <div class="work-experience__header">
-                <img src="./assets/khallagh-logo.png" />
-                <h4>Front-End Developer</h4>
-                <div>
-                  <font-awesome-icon :icon="['fa', 'calendar-alt']" />
-                  <span class="accent-font">Feb 2015 - Oct 2016</span>
-                </div>
-                <h5>
-                  <a href="https://khallagh.com">Khallagh Borhan</a>
-                  <small>Local CDN provider</small>
-                </h5>
-                <div>Tehran, Iran</div>
-              </div>
-
-              <div class="work-experience__body">
-                <ul>
-                  <li>
-                    Starting several projects from scratch including
-                    <ul>
-                      <li>
-                        Qmery - Video streaming service: Developed a back-office panel capable of
-                        uploading videos, choosing a logo, thumbnail, and watermark and placing them
-                        on the video, and sending the desired data to the backend to render the
-                        final video.
-                      </li>
-                      <li>
-                        VidAd - Video advertising platform: Developed a back-office panel capable of
-                        selecting different categories of videos, uploading banner images, and
-                        choosing a payment plan for advertisement.
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    Helping less experienced developers to get in touch with
-                    <strong>Web Development</strong> and <strong>AngularJS</strong>.
-                  </li>
-                </ul>
-              </div>
-            </section>
-            <!-- Khallagh -->
           </section>
 
           <section>
